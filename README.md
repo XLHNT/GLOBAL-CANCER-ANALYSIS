@@ -96,25 +96,26 @@ This analysis provides data-driven answers to guide strategic healthcare investm
 - Stakeholder communication
 
 ## Repository Structure
+```
 
 Global-Cancer-Analysis/
 │
 ├── README.md                        # Project overview and key findings
 │
 ├── sql/                             # SQL query files by category
-│   ├── 01_data_quality.sql         # Data completeness and integrity
-│   ├── 02_temporal_analysis.sql    # Year-over-year trends
-│   ├── 03_cancer_distribution.sql  # Cancer type prevalence
-│   ├── 04_demographics.sql         # Patient demographic profiles
-│   ├── 05_risk_factors.sql         # Lifestyle and genetic risk analysis
-│   └── 12_executive_dashboard.sql  # Comprehensive KPI dashboard
+│   ├── 01_data_quality.sql          # Data completeness and integrity    
+│   ├── 02_temporal_analysis.sql     # Yea-over-year trends
+│   ├── 03_cancer_distribution.sql   # Cancer type prevalence
+│   ├── 04_demographics.sql          # Patient demographic profiles
+│   ├── 05_risk_factors.sql          # Lifestyle and genetic risk analysis
+│   └── 12_executive_dashboard.sql   # Comprehensive KPI dashboard
 │
 └── documentation/
-├── Data_Dictionary.md          # Dataset schema and field definitions
-├── Business_Insights.md        # Detailed findings and recommendations
-├── Query_Index.md              # Business questions mapped to queries
-└── Methodology.md              # Analysis approach and assumptions
-
+    ├── Data_Dictionary.md           # Dataset schema and field definitions
+    ├── Business_Insights.md         # Detailed findings and recommendations
+    ├── Query_Index.md               # Business questions mapped to queries
+    └── Methodology.md               # Analysis approach and assumptions
+```
 
 ## How to Use This Repository
 
